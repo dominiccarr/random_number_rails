@@ -1,0 +1,9 @@
+<%= will_paginate @nums %>
+<ul>
+    <% @nums.each do |num| %>
+        <li><%= num %></li>
+    <% end %>
+</ul>
+<%= will_paginate @nums %>
+
+<!--<%= @nums.join(',') %>-->
